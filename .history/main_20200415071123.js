@@ -43,7 +43,6 @@ const Lil = () => {
 
       if (this.head !== null && this.next !== null) {
         this.previous = this.next;
-        this.tail = newNode;
         
       }
         

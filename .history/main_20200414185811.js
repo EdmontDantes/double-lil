@@ -37,18 +37,8 @@ const Lil = () => {
         return;
       }
       
-      this.previous = this.tail;
-      this.tail.next = newNode;
-      this.next = newNode;
+      let current = this.head;
 
-      if (this.head !== null && this.next !== null) {
-        this.previous = this.next;
-        this.tail = newNode;
-        
-      }
-        
-      
-      // let current = this.head;
       // while (current.next !== null) {
       //   current = current.next
       // }
