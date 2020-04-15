@@ -64,10 +64,10 @@ const Lil = () => {
     },
 
     removeFromEnd: function() {
-      let endedRemovedNode = this.tail.value;
+      let EndedRemovedNode = this.tail.value;
       
-      this.tail = this.tail.previous;
-      endedRemovedNode.next = null;
+      this.tail = previousNewEnd;
+      this.tail.next = null;
 
 
       // EndedRemovedNode.next = null;
@@ -75,7 +75,7 @@ const Lil = () => {
       // this.tail = previousNewEnd;
       // this.tail.previous.next = null;
 
-      return endedRemovedNode;
+      return EndedRemovedNode;
 
 
       // let current = this.head;

@@ -67,7 +67,7 @@ const Lil = () => {
       let endedRemovedNode = this.tail.value;
       
       this.tail = this.tail.previous;
-      endedRemovedNode.next = null;
+      .next = null;
 
 
       // EndedRemovedNode.next = null;
